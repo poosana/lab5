@@ -17,6 +17,7 @@ double rad2deg(double rad){
 
 double findXComponent(double lenght1,double lenght2,double angle1,double angle2){
     double ResultX;
+    double Vecdirection;
     ResultX = (lenght1*cos(angle1))+(lenght2*cos(angle2));
     return ResultX;
 
@@ -38,7 +39,9 @@ void showResult(double ResultVec,double Vecdirection){
     cout<<"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"<<endl;
     cout<<"Length of the resultant vector = "<<ResultVec<<endl;
     cout<<"Direction of the resultant vector (deg) = "<<Vecdirection<<endl;
-    cout<<"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% ";
+    cout<<"%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%"<<endl;
+   
+
 }
 
 int main(){
